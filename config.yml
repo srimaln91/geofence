@@ -1,0 +1,21 @@
+http:
+  host: "localhost"
+  port: 8000
+
+tile38:
+  host: "localhost"
+  port: 9851
+  db: 0
+  password: ""
+
+kafka:
+  brokers:
+    - localhost:32768
+    - localhost:32769
+    - localhost:32770
+  schemas:
+      topic: geofence_trigger
+      version: 1
+
+mqtt:
+  broker: "tcp://localhost:1883"
